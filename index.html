@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Urna</title>
+    <meta charset="UTF-8">
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cinzaClaro">
+            <p>Número:</p>
+            <form action="">
+                <input type="text"  size="2" id="num1">
+                
+            </form>
+            <p class="candidato"> </p>
+
+            <img src="" class="img">
+        </div>
+
+        <div class="cinzaEscuro">
+            <p>JUSTIÇA<br>ELEITORAL</p>
+        </div>
+        <div class="preto">
+            <button class="bnt click" onclick="inserir(1)">1</button>
+            <button class="bnt click" onclick="inserir(2)">2</button>
+            <button class="bnt click" onclick="inserir(3)">3</button>
+            <button class="bnt click" onclick="inserir(4)">4</button>
+            <button class="bnt click" onclick="inserir(5)">5</button>
+            <button class="bnt click" onclick="inserir(6)">6</button>
+            <button class="bnt click" onclick="inserir(7)">7</button>
+            <button class="bnt click" onclick="inserir(8)">8</button>
+            <button class="bnt click" onclick="inserir(9)">9</button>
+            <button class="bnt click" onclick="inserir(0)">0</button>
+            <div class="teclado2">
+                <button class="branco  click" onclick="branco()">BRANCO</button>
+                <button class="laranja  click" onclick="corrige()">CORRIGE</button>
+                <button class="verde" onclick="votar()">CONFIRMA</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
